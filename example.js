@@ -7,13 +7,13 @@ const Instauto = require('instauto'); // eslint-disable-line import/no-unresolve
 const options = {
   cookiesPath: './cookies.json',
 
-  username: 'your-ig-username',
-  password: 'your-ig-password',
+  username: 'the_backchodi_hub',
+  password: 'Rohit@991136',
 
   // Global limit that prevents follow or unfollows (total) to exceed this number over a sliding window of one hour:
-  maxFollowsPerHour: 20,
+  maxFollowsPerHour: 10,
   // Global limit that prevents follow or unfollows (total) to exceed this number over a sliding window of one day:
-  maxFollowsPerDay: 150,
+  maxFollowsPerDay: 50,
   // (NOTE setting the above parameters too high will cause temp ban/throttle)
 
   maxLikesPerDay: 50,
